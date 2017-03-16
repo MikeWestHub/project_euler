@@ -20,6 +20,6 @@ class GetRange
   end
 end
 
-range = GetRange.new(1..1000)
+range = GetRange.new(1...1000)
 answer = range.sum_of_range
 puts answer
